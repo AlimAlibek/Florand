@@ -1,0 +1,19 @@
+
+.logoContainer {
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 137px;
+    min-width: 137px;
+    height: 30px;
+    background-image: url('../../assets/Logo.svg');
+}
+
+@media screen and (max-width: 992px) {
+    .logoContainer {
+        height: 52px;
+    }
+}

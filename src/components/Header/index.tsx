@@ -1,8 +1,9 @@
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import s from './style.module.css'
 import { Layout, Menu, Row, Col, Button, Collapse, Grid } from "antd";
 import cn from 'classnames';
-import menuItems from './menuItems';
+import menuItems from '../MenuItems/menuItems';
+import Logo from '../Logo';
 const { Header } = Layout;
 const {useBreakpoint} = Grid;
 
@@ -16,9 +17,7 @@ const TheHeader: React.FC = () => {
         <Header className={s.header}>
             <Row justify="space-between" >
                 <Col >
-                    <Link  to={'/'} className={s.logoContainer}>
-                        <div className={s.logo} />
-                    </Link>
+                    <Logo />
                 </Col>
                 {
                     !lg ?

@@ -18,7 +18,8 @@ export default {
     components: {
         Layout: {
           headerBg: colors.brandBlack,
-          bodyBg: colors.brandWhite
+          bodyBg: colors.brandWhite,
+          footerBg: colors.brandBlack,
         },
 
         Menu: {
@@ -56,9 +57,18 @@ export default {
 
         },
 
+        Typography: {
+          colorWarning: colors.brandOrangeDark,
+          color: colors.brandWhite,
+          colorPrimary: colors.brandWhite,
+
+        },
+
         Collapse: {
           contentBg: '#000000000'
-        }
+        },
+
+
 
     }
 } as ThemeConfig
