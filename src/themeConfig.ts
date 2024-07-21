@@ -41,7 +41,7 @@ export default {
             colorBorder: '#000000000',
             borderRadius: 20,
             borderRadiusSM: 20,
-            borderRadiusLG: 20,
+            borderRadiusLG: 30,
             defaultHoverBg: colors.brandOrange,
             defaultHoverColor: colors.brandWhite,
             defaultHoverBorderColor: '#000000000',
@@ -49,11 +49,19 @@ export default {
             defaultActiveColor: colors.brandWhite,
             defaultActiveBg: colors.brandOrangeDark,
 
+            colorPrimary: colors.brandOrange,
+            colorPrimaryHover: colors.brandOrangeDark,
+            colorPrimaryActive: colors.brandOrangeDark,
+
             controlHeight: 45,
             controlHeightSM: 39,
             controlHeightLG: 50,
 
-            paddingInlineSM: 20
+            paddingInlineSM: 20,
+            paddingInlineLG: 20,
+
+            fontSizeLG: 18
+
 
         },
 
@@ -68,7 +76,9 @@ export default {
           contentBg: '#000000000'
         },
 
-
+        Card: {
+          borderRadiusLG: 30,
+        }
 
     }
 } as ThemeConfig

@@ -9,6 +9,11 @@
   --bg-grey: #F3F3F1;
   --light-grey: #EFF0F2;
   --brand-white: #FFFFFF;
+
+  --title-bg-first: #4D4E4E66;
+  --title-bg-second: #3030304D;
+  --title-bg-blur: blur(6px);
+
 }
 
 body {

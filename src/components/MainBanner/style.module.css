@@ -1,0 +1,145 @@
+
+.container {
+    position: relative;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.card {
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.titleContainer {
+    color: #ffffff;
+    width: 84%;
+    min-width: 250px;
+
+    background-color: var(--title-bg-first);
+    backdrop-filter: var(--title-bg-blur);
+
+    padding: 15px 20px;
+    border-radius: 20px;
+    position: absolute;
+
+    top: 0px;
+    left: calc(50% - 84%/2);
+}
+
+.titleContainer h1 {
+    font-size: 24px;
+    line-height: 40px;
+}
+.titleContainer p {
+    font-size: 14px;
+}
+
+.buttonContainer {
+    position: absolute;
+
+    left: calc(50% - 84%/2);
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 0 25px 0;
+
+    background-color: var(--title-bg-first);
+    backdrop-filter: var(--title-bg-blur);
+
+    min-width: 250px;
+    width: 84%;
+
+    border-radius: 20px;
+
+    background: none;
+    backdrop-filter: none;
+}
+
+.buttonContainer p {
+    display: none;
+}
+.buttonContainer button {
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.buttonIcon {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+@media screen and (min-width: 576px) {
+
+    .container {
+        padding: 0;
+    }
+
+    .titleContainer {
+        width: 48%;
+        top: 20px;
+        left: 5%;
+        min-width: 396px;
+    }
+    .titleContainer h1 {
+        font-size: 26px;
+    }
+
+    .titleContainer p {
+        font-size: 16px;
+    }
+
+    .buttonContainer {
+        width: 48%;
+        min-width: 396px;
+        left: 5%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .buttonContainer {
+        background-color: var(--title-bg-first);
+        backdrop-filter: var(--title-bg-blur);
+        padding: 15px 30px;
+        bottom: -30px;
+    }
+
+    .buttonContainer p {
+        display: inline-block;
+        font-size: 18px;
+        line-height: 22px;
+        color: #ffffff;
+
+        margin: 0;
+    }
+
+    .buttonContainer button {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .titleContainer {
+        top: 55px;
+        max-width: 508px;
+        min-width: 470px;
+        padding: 25px 40px;
+    }
+    .titleContainer h1 {
+        font-size: 32px;
+    }
+
+    .buttonContainer {
+        max-width: 508px;
+        min-width: 470px;
+        padding: 22px 40px;
+    }
+}

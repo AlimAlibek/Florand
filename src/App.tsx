@@ -6,6 +6,7 @@ import { ConfigProvider, Layout } from 'antd';
 import themeConfig from './themeConfig';
 
 import { BrowserRouter } from 'react-router-dom';
+import Main from './pages/Main';
 
 const { Content } = Layout
 
@@ -20,6 +21,7 @@ function App() {
           <Header />
 
           <Content className={s.mainContent}>
+            <Main />
 
           </Content>
 
