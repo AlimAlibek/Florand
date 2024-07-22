@@ -21,7 +21,7 @@ const MainBanner: React.FC = () => {
                     : <img alt="example" src={LargeImage} />
                 }
                 styles={{
-                    body: {position: 'absolute', top: 0, bottom: 0, width: '100%'},
+                    body: {display: 'none'},
                 }}
             />
 

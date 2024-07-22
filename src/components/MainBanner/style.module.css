@@ -3,6 +3,7 @@
     position: relative;
     width: 100%;
     padding-top: 25px;
+    min-height: 348px;
 }
 
 .card {
@@ -126,6 +127,10 @@
 }
 
 @media screen and (min-width: 992px) {
+
+    .container {
+        min-height: 390px;
+    }
 
     .titleContainer {
         top: 55px;

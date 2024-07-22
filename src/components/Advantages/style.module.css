@@ -1,0 +1,58 @@
+
+.item {
+    height: 160px;
+    position: relative;
+}
+
+.itemCard {
+    min-height: 100%;
+}
+
+.itemContent {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start
+}
+
+.itemImg {
+    height: 50px;
+}
+
+.itemLabel {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.5px;
+}
+
+.orangeText {
+    color: var(--brand-orange);
+}
+
+.gradientBG {
+    background: linear-gradient(to right,#CF935B33, #738A7133);
+}
+.simpleBG {
+    background: #F0E2D6CC;
+}
+
+.button {
+    font-weight: 700;
+    width: 300px;
+    margin-top: 12px;
+}
+
+
+
+@media screen and (min-width: 576px) {
+    .item {
+        height: 198px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .item {
+        height: 180px;
+    }
+}
+
