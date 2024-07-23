@@ -14,7 +14,9 @@
 
 .menuHorizontal {
     background: none;
-    width: 732px;
+}
+.menuHorizontal li {
+    padding: 0 12px !important;
 }
 .menuVertical {
     background: none;

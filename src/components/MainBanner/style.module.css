@@ -135,7 +135,7 @@
     .titleContainer {
         top: 55px;
         max-width: 508px;
-        min-width: 470px;
+        min-width: 474px;
         padding: 25px 40px;
     }
     .titleContainer h1 {
@@ -144,7 +144,7 @@
 
     .buttonContainer {
         max-width: 508px;
-        min-width: 470px;
+        min-width: 474px;
         padding: 22px 40px;
     }
 }

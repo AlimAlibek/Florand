@@ -15,6 +15,9 @@ const colors = {
 }
 
 export default {
+    token: {
+      fontFamily: 'Onest, sans-serif'
+    },
     components: {
         Layout: {
           headerBg: colors.brandBlack,
@@ -61,8 +64,6 @@ export default {
             paddingInlineLG: 20,
 
             fontSizeLG: 18
-
-
         },
 
         Typography: {

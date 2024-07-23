@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Onest";
+  src: local("Onest"), url(./assets/font/Onest-VariableFont_wght.ttf) format('opentype');
+}
+
 :root {
   --brand-orange: #FF5C04;
   --brand-orange-dark: #E75201;
