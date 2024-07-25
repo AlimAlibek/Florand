@@ -1,6 +1,7 @@
 import {Space} from 'antd'
 import MainBanner from "../../components/MainBanner"
 import Advantages from '../../components/Advantages';
+import ServicesGrid from '../../components/ServicesGrid';
 
 import s from './style.module.css'
 
@@ -13,6 +14,8 @@ const Main: React.FC = () => {
            <div className={s.mainContainer}>
                 <Advantages />
            </div>
+
+           <ServicesGrid />
 
         </Space>
     )

@@ -2,6 +2,16 @@
   font-family: "Onest";
   src: local("Onest"), url(./assets/font/Onest-VariableFont_wght.ttf) format('opentype');
 }
+@font-face {
+  font-family: "Onest";
+  src: local("Onest"), url(./assets/font/Onest-Bold.ttf) format('opentype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Onest";
+  src: local("Onest"), url(./assets/font/Onest-Medium.ttf) format('opentype');
+  font-weight: 500;
+}
 
 :root {
   --brand-orange: #FF5C04;
@@ -17,7 +27,7 @@
 
   --title-bg-first: #4D4E4E66;
   --title-bg-second: #3030304D;
-  --title-bg-blur: blur(6px);
+  --title-bg-blur: blur(20px);
 
 }
 
@@ -33,4 +43,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+a:hover {
+  color: var(--bg-grey);
 }

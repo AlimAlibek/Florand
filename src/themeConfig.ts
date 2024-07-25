@@ -78,7 +78,7 @@ export default {
         },
 
         Card: {
-          borderRadiusLG: 30,
+          borderRadiusLG: 20,
         }
 
     }
