@@ -4,6 +4,7 @@ import Advantages from '../../components/Advantages';
 import ServicesGrid from '../../components/ServicesGrid';
 
 import s from './style.module.css'
+import Reviews from '../../components/Reviews';
 
 const Main: React.FC = () => {
 
@@ -16,6 +17,8 @@ const Main: React.FC = () => {
            </div>
 
            <ServicesGrid />
+
+           <Reviews />
 
         </Space>
     )
