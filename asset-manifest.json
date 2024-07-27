@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Florand/static/css/main.e19e6436.css",
-    "main.js": "/Florand/static/js/main.0ec28c56.js",
+    "main.js": "/Florand/static/js/main.620b1b3c.js",
     "static/js/453.22fd3428.chunk.js": "/Florand/static/js/453.22fd3428.chunk.js",
     "static/media/img-main-1200.jpg": "/Florand/static/media/img-main-1200.f4116c4a7833f9d34cf1.jpg",
     "static/media/img-main-320.jpg": "/Florand/static/media/img-main-320.9ba8476b9f91c1c819eb.jpg",
@@ -34,11 +34,11 @@
     "index.html": "/Florand/index.html",
     "static/media/arrowRight.svg": "/Florand/static/media/arrowRight.2749ebe4e968666c5cd18d59c7cdcdf5.svg",
     "main.e19e6436.css.map": "/Florand/static/css/main.e19e6436.css.map",
-    "main.0ec28c56.js.map": "/Florand/static/js/main.0ec28c56.js.map",
+    "main.620b1b3c.js.map": "/Florand/static/js/main.620b1b3c.js.map",
     "453.22fd3428.chunk.js.map": "/Florand/static/js/453.22fd3428.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e19e6436.css",
-    "static/js/main.0ec28c56.js"
+    "static/js/main.620b1b3c.js"
   ]
 }
