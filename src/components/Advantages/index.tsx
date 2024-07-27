@@ -37,6 +37,7 @@ const Advantages: React.FC = () => {
                         size="small"
                         className={classNames(s.itemCard, (i % 2) ? s.simpleBG : s.gradientBG)}
                         styles={{body: itemBodyStyle}}
+                        bordered={false}
                     >
                         <div className={s.itemContent}>
                             <img src={item.img} className={s.itemImg}/>

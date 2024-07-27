@@ -49,7 +49,11 @@ const ServicesGrid: React.FC = () => {
                     i === itemsWithQuestion.length - 1
                       ?
                         <div className={s.questionCardContainer}>
-                            <Card className={s.questionCard} styles={{body: {height: '100%'}}}>
+                            <Card
+                                className={s.questionCard}
+                                styles={{body: {height: '100%'}}}
+                                bordered={false}
+                            >
                                 <div className={s.questionCardContent}>
                                     <div>
                                         <div className={s.itemTitle}>
@@ -57,8 +61,7 @@ const ServicesGrid: React.FC = () => {
                                         </div>
                                         <div className={s.questionDescription}>{item.description}</div>
                                     </div>
-
-                                    <Link className={s.itemLink} to={item.path}>Подробнее &gt;</Link>
+                                    <a className={s.itemLink} href={item.path}>Подробнее &gt;</a>
                                 </div>
                             </Card>
                         </div>
