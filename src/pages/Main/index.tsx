@@ -21,7 +21,9 @@ const Main: React.FC = () => {
 
            <Reviews />
 
-           <TheForm />
+           <div id='form'>
+             <TheForm />
+           </div>
 
         </Space>
     )

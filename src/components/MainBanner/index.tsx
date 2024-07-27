@@ -23,6 +23,7 @@ const MainBanner: React.FC = () => {
                 styles={{
                     body: {display: 'none'},
                 }}
+                bordered={false}
             />
 
 
@@ -39,7 +40,15 @@ const MainBanner: React.FC = () => {
                 <p>
                     Оставьте заявку <br/> на доставку цветов
                 </p>
-                <Button icon={<img className={s.buttonIcon} src={ArrowRight} />} iconPosition="end" type="primary" size="large">Оставить заявку</Button>
+                <a href="#form">
+                    <Button
+                        icon={<img className={s.buttonIcon}
+                        src={ArrowRight} />}
+                        iconPosition="end"
+                        type="primary"
+                        size="large"
+                    >Оставить заявку</Button>
+                </a>
             </div>
         </div>
     )
