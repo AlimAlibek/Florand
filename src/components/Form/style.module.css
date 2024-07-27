@@ -1,0 +1,70 @@
+
+.container {
+    width: 100%;
+    background-color: var(--brand-black);
+    border-radius: 30px;
+}
+
+.formTitle {
+    min-height: 168px;
+    color: #ffffff;
+
+    padding: 40px 30px;
+
+    text-align: center;
+}
+
+.formTitle>p {
+    font-size: 16px;
+}
+
+.formTitle .managerCall {
+    display: none;
+}
+
+.formCard {
+
+    border-radius: 30px;
+    background: none;
+    padding: 26px 6px;
+
+    background-image: url('../../assets/image/bkg-form.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form {
+    max-width: 600px;
+}
+
+.formItem {
+    margin-bottom: 10px;
+}
+
+.submitFormItem {
+    margin-top: 30px;
+}
+
+.securityAlert {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+    .securityAlert {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .formTitle .managerCall {
+        display: block;
+    }
+    .formTitle {
+        text-align: start;
+    }
+
+}

@@ -52,6 +52,8 @@ const Reviews: React.FC = () => {
                     <Carousel
                         ref={carouserRef}
                         className={s.carousel}
+                        autoplay
+                        dots={false}
                     >
                         {
                             reviews.map((review, i) => {
