@@ -8,6 +8,7 @@ import useThemeConfig from './themeConfig';
 import { Route, Routes } from 'react-router-dom';
 import Main from './pages/Main';
 import Services from './pages/Services';
+import NotFound from './pages/NotFound';
 
 const { Content } = Layout
 
@@ -29,6 +30,8 @@ function App() {
 
               <Route path="/" Component={Main} />
               <Route path="/services" Component={Services} />
+
+              <Route path="*" Component={NotFound} />
 
             </Routes>
 
