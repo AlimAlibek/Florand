@@ -1,0 +1,16 @@
+.mainSpace {
+    width: 100%;
+}
+
+.mainContainer {
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 576px) {
+
+    .mainContainer {
+        max-width: 960px;
+    }
+
+}

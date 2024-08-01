@@ -1,0 +1,10 @@
+.breadcrumb {
+    margin-bottom: 4px;
+}
+
+.itemTitleDark {
+    color: var(--brand-grey);
+}
+.itemTitleLight {
+    color: #ffffff;
+}
