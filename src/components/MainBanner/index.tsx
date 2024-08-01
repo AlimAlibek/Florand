@@ -2,7 +2,7 @@ import { Card, Grid, Button } from "antd";
 import LargeImage from '../../assets/image/img-main-1200.jpg';
 import MediumImage from '../../assets/image/img-main-640.jpg';
 import SmallImage from '../../assets/image/img-main-320.jpg';
-import ArrowRight from '../../assets/icons/arrowRight.svg'
+import ButtonWithArror from "../ButtonWithArrow";
 import s from './style.module.css'
 
 const {useBreakpoint} = Grid;
@@ -26,7 +26,6 @@ const MainBanner: React.FC = () => {
                 bordered={false}
             />
 
-
             <div className={s.titleContainer}>
                 <h1>
                     Доставка цветов  из Голландии, Эквадора,  Кении, Колумбии
@@ -40,14 +39,8 @@ const MainBanner: React.FC = () => {
                 <p>
                     Оставьте заявку <br/> на доставку цветов
                 </p>
-                <a href="#form">
-                    <Button
-                        icon={<img className={s.buttonIcon}
-                        src={ArrowRight} />}
-                        iconPosition="end"
-                        type="primary"
-                        size="large"
-                    >Оставить заявку</Button>
+                <a href="#requestForm">
+                    <ButtonWithArror block size="large" >Оставить заявку</ButtonWithArror>
                 </a>
             </div>
         </div>

@@ -1,4 +1,5 @@
 import { ThemeConfig } from "antd";
+import { useLocation } from "react-router-dom";
 
 const colors = {
   brandOrange: '#FF5C04',
@@ -11,17 +12,20 @@ const colors = {
   bgGrey: '#F3F3F1',
   lightGrey: '#EFF0F2',
   brandWhite: '#FFFFFF'
-
 }
 
-export default {
+const useThemeConfig = () => {
+
+  const {pathname} = useLocation();
+
+  return {
     token: {
       fontFamily: 'Onest, sans-serif'
     },
     components: {
         Layout: {
           headerBg: colors.brandBlack,
-          bodyBg: colors.brandWhite,
+          bodyBg: pathname !== '/services' ? colors.brandWhite : colors.bgGrey,
           footerBg: colors.brandBlack,
         },
 
@@ -82,4 +86,7 @@ export default {
         }
 
     }
-} as ThemeConfig
+  } as ThemeConfig
+}
+
+export default useThemeConfig;

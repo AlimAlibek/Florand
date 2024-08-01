@@ -64,8 +64,10 @@
     display: none;
 }
 .buttonContainer button {
-    width: 100%;
     justify-content: space-between;
+}
+.buttonContainer a {
+    width: 100%;
 }
 
 
@@ -121,7 +123,7 @@
         margin: 0;
     }
 
-    .buttonContainer button {
+    .buttonContainer a {
         width: auto;
     }
 }

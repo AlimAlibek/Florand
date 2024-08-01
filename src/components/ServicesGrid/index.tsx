@@ -24,7 +24,7 @@ const ServicesGrid: React.FC = () => {
             title: 'У вас остались вопросы?',
             description: 'Вы можете задать их менеджеру, оставив завяку.',
             img1x1: '',
-            path: '#form'
+            path: '#requestForm'
         }
     ]
 
