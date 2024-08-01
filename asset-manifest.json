@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Florand/static/css/main.5e112cd5.css",
-    "main.js": "/Florand/static/js/main.765acc4e.js",
+    "main.js": "/Florand/static/js/main.0b38b694.js",
     "static/js/453.22fd3428.chunk.js": "/Florand/static/js/453.22fd3428.chunk.js",
     "static/media/img-main-1200.jpg": "/Florand/static/media/img-main-1200.f4116c4a7833f9d34cf1.jpg",
     "static/media/img-main-320.jpg": "/Florand/static/media/img-main-320.9ba8476b9f91c1c819eb.jpg",
@@ -16,14 +16,17 @@
     "static/media/tracking-1160.jpg": "/Florand/static/media/tracking-1160.e309b3e198fd6d13594f.jpg",
     "static/media/sklad-316.jpg": "/Florand/static/media/sklad-316.4e1a8f49d1c7b276493f.jpg",
     "static/media/deliver-truck-460.jpg": "/Florand/static/media/deliver-truck-460.c9a9a1d351963a10357b.jpg",
+    "static/media/tamognia-1160.jpg": "/Florand/static/media/tamognia-1160.b53a0c3e3de5b49a03fe.jpg",
     "static/media/precooling-316.jpg": "/Florand/static/media/precooling-316.6678920df7a15ebfb9a2.jpg",
     "static/media/help-316.jpg": "/Florand/static/media/help-316.d07c8f63f59658ad17ce.jpg",
     "static/media/deliver-air-460.jpg": "/Florand/static/media/deliver-air-460.b77ccda6fc5c5f30fd9c.jpg",
     "static/media/help-1160.jpg": "/Florand/static/media/help-1160.0aa4b40e77610a431faf.jpg",
     "static/media/deliver-truck-316.jpg": "/Florand/static/media/deliver-truck-316.22937bb69e812b87de0d.jpg",
     "static/media/tracking-460.jpg": "/Florand/static/media/tracking-460.8060384b27a116e3e626.jpg",
+    "static/media/tamognia-460.jpg": "/Florand/static/media/tamognia-460.da09acebfc13ae933726.jpg",
     "static/media/deliver-air-316.jpg": "/Florand/static/media/deliver-air-316.e400e9f9bd9a541951df.jpg",
     "static/media/tracking-316.jpg": "/Florand/static/media/tracking-316.63e84bf0c12e8e8928a1.jpg",
+    "static/media/tamognia-316.jpg": "/Florand/static/media/tamognia-316.d27396a3885706d578c8.jpg",
     "static/media/bkg-form.png": "/Florand/static/media/bkg-form.fb7bf7e270fd81528042.png",
     "static/media/Onest-VariableFont_wght.ttf": "/Florand/static/media/Onest-VariableFont_wght.cad7eddd8c469b08d580.ttf",
     "static/media/Onest-Medium.ttf": "/Florand/static/media/Onest-Medium.fbd1029ceefc29dbe253.ttf",
@@ -37,11 +40,11 @@
     "static/media/Time.svg": "/Florand/static/media/Time.aae44b8cd141bdb7109823b7ec25a8b5.svg",
     "index.html": "/Florand/index.html",
     "main.5e112cd5.css.map": "/Florand/static/css/main.5e112cd5.css.map",
-    "main.765acc4e.js.map": "/Florand/static/js/main.765acc4e.js.map",
+    "main.0b38b694.js.map": "/Florand/static/js/main.0b38b694.js.map",
     "453.22fd3428.chunk.js.map": "/Florand/static/js/453.22fd3428.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e112cd5.css",
-    "static/js/main.765acc4e.js"
+    "static/js/main.0b38b694.js"
   ]
 }
